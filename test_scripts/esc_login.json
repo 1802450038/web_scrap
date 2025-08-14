@@ -1,0 +1,31 @@
+{
+    "url" : "https://appuat.escmidia.com.br/login",
+    "elements" : [
+        {
+            "element": {
+                "tag": "input",
+                "attributes":{
+                    "type": "email",
+                    "name" :"email",
+                    "value" : "teste@teste.com"
+                }
+            }
+        },  
+        {
+            "element": {
+                "tag": "input",
+                "attributes": {
+                    "type": "password",
+                    "name": "password",
+                    "value": "teste"
+                }
+            }
+        },  
+        {
+            "element": {
+                "tag": "button",
+                "text_content" :"Entrar"
+            }
+        }
+    ]
+}
